@@ -1,5 +1,5 @@
-import 'package:aimable_card/meeting.dart';
-import 'package:aimable_card/password.dart';
+import 'package:aimablemupenzi_card/meeting.dart';
+import 'package:aimablemupenzi_card/password.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 //import 'package:flutter/material.dart';
@@ -56,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                               Text("Email"),
                               Padding(padding: EdgeInsets.all(3.0),
                                 child: CupertinoTextFormFieldRow(
-                                  placeholder: "Enter Email",
+                                  placeholder: "Enter Your Email",
                                   keyboardType: TextInputType.text,
                                   //clearButtonMode: OverlayVisibilityMode.editing,
                                   autocorrect: false,
@@ -101,7 +101,7 @@ class _LoginPageState extends State<LoginPage> {
                               SizedBox(
                                 height:5,
                               ),
-                              Text("Email you use must be the same with one used in account creation.",
+                              Text("Email you Enter must be the same with one used in account creation.",
                               style: TextStyle(color: Colors.blue),),
                             ],
                           ),

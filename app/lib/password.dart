@@ -1,4 +1,4 @@
-import 'package:aimable_card/login.dart';
+import 'package:aimablemupenzi_card/login.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 //import 'package:flutter/material.dart';
@@ -45,7 +45,7 @@ class _PasswordRecoverState extends State<PasswordRecover> {
                         child: ListView(
                           children: <Widget>[
                             Text(
-                                "Enter User Account's Verified Email address And We Will Send a Password Reset Link",
+                                "Enter Verified Email address And We Will Send a Password Reset Link",
                             style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue),),
                             SizedBox(
                               child: Text("Email",style: TextStyle(fontWeight: FontWeight.bold),),

@@ -78,7 +78,7 @@ class _SpeakerPageState extends State<SpeakerPage> {
                                             Row(
                                               children:<Widget> [
                                                 Text("Work:"),
-                                                Text("Cheif Exective Secretary"),
+                                                Text("Chief Exective Officer"),
                                               ],
                                             ),
                                             Row(
@@ -143,7 +143,7 @@ class _SpeakerPageState extends State<SpeakerPage> {
                                         Row(
                                           children:<Widget> [
                                             Text("Work:"),
-                                            Text("Cheif Exective Secretary"),
+                                            Text("Chief Exective Officer"),
                                           ],
                                         ),
                                         Row(
